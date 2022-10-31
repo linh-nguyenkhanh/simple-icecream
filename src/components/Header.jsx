@@ -18,7 +18,7 @@ const Banner = styled.header`
   }
 
   img {
-    width: 50px;
+    width: 60px;
     border-radius: 50%;
   }
 `;

@@ -4,6 +4,7 @@ import IceCream from "./components/Icecream/IceCream";
 import ReactSwitch from "react-switch";
 import "./App.css";
 import "./index.css";
+
 export const ThemeContext = createContext(null);
 
 function App() {
@@ -16,17 +17,17 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <Header />
       <div className="App" id={theme}>
-        <div>
-          <div style={{ display: "inline-block" }}>
-            <IceCream />
-          </div>
-          <div style={{ display: "inline-block" }}></div>
-        </div>
         <div className="switch">
-          <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+          <label>{theme === "light" ? "☀️" : "🌒"}</label>
+          <ReactSwitch onChange={toggleTheme} 
+           onColor="#2693e6"
+           height={30}
+            width={60}
+            boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
+            activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
+          checked={theme === "dark"} />
         </div>
-        <div style={{ position: "fixed", bottom: "24px", right: "24px" }}></div>
+        <IceCream />
       </div>
     </ThemeContext.Provider>
   );
