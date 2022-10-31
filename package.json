@@ -8,6 +8,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-scripts": "5.0.1",
+    "react-simple-chatbot": "^0.6.1",
     "react-switch": "^7.0.0",
     "styled-components": "^5.3.6"
   },
