@@ -1,11 +1,10 @@
 .wrapper {
-  width: 600px;
+  width: 800px;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 62%;
   left: 50%;
-  
-  border-radius: 8px;
+  border-radius: 30px;
 
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
