@@ -9,3 +9,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Using Styled Components, Framer motion and Vanilla CSS for styling
 
 - Adding Chatbot library 
+
+- The main Ice cream's CSS file is fork from codepen.io, I have modified a little bit to fit with my wish
