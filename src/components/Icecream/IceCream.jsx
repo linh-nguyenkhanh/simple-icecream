@@ -44,10 +44,12 @@ export default function IceCream() {
         <div className="cone"></div>
         <div className="oval"></div>
 
-        <AddStyledButtons onClick={addFlavour}>Try to add</AddStyledButtons>
+        <AddStyledButtons onClick={addFlavour}>
+          Add icecream ball
+        </AddStyledButtons>
         {getFlavours(array, index)}
         <RemoveStyledButtons onClick={removeFlavour}>
-          Try to remove
+          Remove icecream ball
         </RemoveStyledButtons>
       </div>
     </div>
