@@ -44,7 +44,7 @@ export default function IceCream() {
         <div className="cone"></div>
         <div className="oval"></div>
 
-        <AddStyledButtons onClick={addFlavour}>Add</AddStyledButtons>
+        <AddStyledButtons onClick={addFlavour}>Try to add</AddStyledButtons>
         {getFlavours(array, index)}
         <RemoveStyledButtons onClick={removeFlavour}>
           Try to remove
